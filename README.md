@@ -1,17 +1,18 @@
 # Student Management System
 
-A simple Student Management System built using Python tkinter and MySQL Connector.
+A simple Student Management System built using Python tkinter, and MySQL Connector.
 
 ## Table of Contents
 
-- [Introduction](#introduction)
+- [Overview](#overview)
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 
-## Introduction
+
+## Overview
 
 This project is a simple Student Management System developed using Python's tkinter library for the GUI and MySQL Connector for database interaction. It allows users to add, update, delete, and view student records. The system includes both a student login and a teacher login, with different levels of access.
 
@@ -21,6 +22,7 @@ The project consists of three main files:
 - `dataView.py`: This file contains the interface for teachers to add, update, delete, and view student records. It also includes the functionality to search for students by roll, course, and subject.
 - `dbms.py`: This file contains the database management functions, including adding, updating, deleting, and retrieving student records from the MySQL database.
 
+
 ## Features
 
 - **Add New Student Records**: Teachers can add new student records by entering the student's details, including Student ID, Name, Roll No, Registration number, Session, Mobile number, Gender, Course, and Subject.
@@ -29,6 +31,7 @@ The project consists of three main files:
 - **View All Student Records**: Teachers can view all student records stored in the database.
 - **Search for Students**: Teachers can search for students by roll number, course, and subject.
 - **Student Login**: Students can log in using their Student ID and Registration number to view their information.
+
 
 ## Installation
 
@@ -61,6 +64,7 @@ The project consists of three main files:
     python homepage.py
     ```
 
+
 ## Usage
 
 - When you run the `homepage.py` file, you will see the Welcome window.
@@ -71,9 +75,11 @@ The project consists of three main files:
   - Teachers can add, update, delete, and view student records.
   - Teachers can search for students by roll, course, and subject.
 
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a pull request.
+
 
 ## License
 
